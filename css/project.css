@@ -1,0 +1,41 @@
+.project {
+}
+.max-width {
+}
+.project__title {
+}
+.section-title {
+}
+.decor {
+}
+.project__subtitle {
+}
+.project__text {
+  color: #495057;
+  text-align: justify;
+  font-family: Arial;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+}
+.project__list {
+}
+.project__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.project__svg {
+  width: 15px;
+  height: 15px;
+}
+.project__bold-text {
+  color: #212529;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33px; /* 132% */
+}

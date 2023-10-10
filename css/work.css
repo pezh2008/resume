@@ -1,0 +1,33 @@
+.work {
+}
+.work__list {
+}
+.work__item {
+  display: flex;
+}
+.work__svg {
+  margin-right: 10px;
+}
+.work__box {
+
+}
+.work__subtitle {
+  color: #343a40;
+  font-size: 30px;
+}
+.work__text {
+  color: #495057; 
+  font-family: Arial;
+  font-size: 22px;
+  line-height: 30px;
+}
+.work__description {
+  color: #495057;
+  text-align: justify;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Arial;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}

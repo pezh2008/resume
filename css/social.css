@@ -1,0 +1,45 @@
+.social {
+  display: flex;
+  gap: 20px;
+}
+.social__item {
+  display: flex;
+  border: 1px solid;
+  border-radius: 50px;
+  background: rgba(0, 114, 177, 0.15);
+  align-items: center;
+}
+
+.social__item_linkedin {
+  padding: 15px 15px 15px 35px;
+  gap: 15px;
+}
+.social__item_git {
+  padding: 15px 26px 15px 50px;
+  gap: 8px
+}
+.social__item_vp {
+  border: none;
+  background: none;
+}
+.social__svg {
+}
+.social__link {
+  color: #495057;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.social__link_linkedin {
+  color: #0072b1;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}

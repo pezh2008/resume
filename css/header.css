@@ -1,0 +1,59 @@
+.wrapper {
+}
+.header {
+  width: 100%;;
+  background-color: rgb(46, 150, 150);
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+.header__info {
+  max-width: 730px;
+  width: 100%;
+}
+.header__title {
+  font-size: 100px;
+  line-height: 114px;
+  margin-bottom: 33px;
+}
+.header__subtitle {
+  font-size: 50px;
+  line-height: 57.5px;
+  margin-bottom: 25px;
+}
+.header__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 61px;
+}
+.header__decor {
+  width: 3px;
+  background: black;
+  margin-right: 34px;
+}
+.header__mail {
+  font-size: 30px;
+  line-height: 34.5px;
+  color: #212529;
+  margin-right: 60px;
+}
+.header__tel {
+  font-size: 30px;
+  line-height: 34.5px;
+  color: #212529;
+}
+
+.header__social {
+
+}
+
+.header__image {
+  margin-left: auto;
+  width: 325px;
+  height: 325px;
+}
+.header__img {
+  height: 100%;
+  width: 100%;
+}

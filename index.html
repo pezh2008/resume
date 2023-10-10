@@ -1,12 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <header>header</header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>resume</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container container">
+          <div class="header__info">
+            <h1 class="header__title">Dmitry Pojarnii</h1>
+            <h2 class="header__subtitle">Frontend developer</h2>
+            <div class="header__contacts">
+              <a class="header__mail" href="mailto:4epuha@gmail.com"
+                >4epuha@gmail.com</a
+              >
+              <span class="header__decor"></span>
+              <a class="header__tel" href="tel:+88 01817986903"
+                >+88 01817986903</a
+              >
+            </div>
+            <ul class="header__social social">
+              <li class="social__item social__item_linkedin">
+                <svg
+                  class="social__svg-din"
+                  width="37"
+                  height="40"
+                  viewBox="0 0 37 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.752808 2.865C0.752808 1.2825 1.93483 0 3.39326 0H34.0674C35.5258 0 36.7079 1.2825 36.7079 2.865V37.135C36.7079 38.7175 35.5258 40 34.0674 40H3.39326C1.93483 40 0.752808 38.7175 0.752808 37.135V2.865ZM11.8607 33.485V15.4225H6.46517V33.485H11.8607ZM9.16404 12.955C11.0449 12.955 12.2157 11.57 12.2157 9.835C12.182 8.0625 11.0472 6.715 9.2 6.715C7.35281 6.715 6.14607 8.065 6.14607 9.835C6.14607 11.57 7.31685 12.955 9.12809 12.955H9.16404ZM20.1933 33.485V23.3975C20.1933 22.8575 20.2292 22.3175 20.373 21.9325C20.7618 20.855 21.6494 19.7375 23.1416 19.7375C25.0944 19.7375 25.8742 21.3925 25.8742 23.8225V33.485H31.2697V23.125C31.2697 17.575 28.609 14.995 25.0584 14.995C22.1955 14.995 20.9124 16.745 20.1933 17.9775V18.04H20.1573C20.1692 18.0191 20.1812 17.9983 20.1933 17.9775V15.4225H14.8C14.8674 17.1175 14.8 33.485 14.8 33.485H20.1933Z"
+                    fill="#0072B1"
+                  />
+                </svg>
+
+                <a
+                  class="social__link social__link_linkedin"
+                  href="Linkedin.com"
+                  >Linkedin</a
+                >
+              </li>
+              <li class="social__item social__item_git">
+                <svg
+                  class="social__svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 0C8.95 0 0 9.17638 0 20.5059C0 29.5797 5.725 37.2438 13.675 39.9608C14.675 40.1403 15.05 39.5251 15.05 38.9868C15.05 38.4998 15.025 36.8849 15.025 35.1676C10 36.116 8.7 33.9116 8.3 32.7581C8.075 32.1686 7.1 30.3487 6.25 29.8617C5.55 29.4772 4.55 28.5288 6.225 28.5032C7.8 28.4775 8.925 29.9898 9.3 30.605C11.1 33.7065 13.975 32.835 15.125 32.2968C15.3 30.9639 15.825 30.0667 16.4 29.5541C11.95 29.0414 7.3 27.2728 7.3 19.4293C7.3 17.1993 8.075 15.3538 9.35 13.9184C9.15 13.4057 8.45 11.3039 9.55 8.48431C9.55 8.48431 11.225 7.94603 15.05 10.5862C16.65 10.1248 18.35 9.89408 20.05 9.89408C21.75 9.89408 23.45 10.1248 25.05 10.5862C28.875 7.9204 30.55 8.48431 30.55 8.48431C31.65 11.3039 30.95 13.4057 30.75 13.9184C32.025 15.3538 32.8 17.1737 32.8 19.4293C32.8 27.2984 28.125 29.0414 23.675 29.5541C24.4 30.1949 25.025 31.4253 25.025 33.3477C25.025 36.0903 25 38.2947 25 38.9868C25 39.5251 25.375 40.1659 26.375 39.9608C30.3456 38.5869 33.7959 35.9707 36.2401 32.4807C38.6843 28.9906 39.9993 24.8025 40 20.5059C40 9.17638 31.05 0 20 0Z"
+                    fill="black"
+                  />
+                </svg>
+                <a class="social__link social__link_git" href="Linkedin.com"
+                  >Github</a
+                >
+              </li>
+              <li class="social__item social__item_vp">
+                <a class="social__link social__link_vp" href="Linkedin.com"
+                  >View Profile</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="header__image">
+            <img
+              class="header__img"
+              src="./image/John Doe (Copy)/1 1@2x.png"
+              alt="header__img"
+            />
+          </div>
+        </div>
+      </header>
+      <main class="main container">
+        <section class="summary max-width">
+          <h2 class="summary__title section-title">Summary</h2>
+          <div class="decor"></div>
+          <p class="summary__text">
+            As a Software Engineer, I possess over 4 years of valuable
+            experience in Software development. My expertise lies in both
+            front-end and back-end development, enabling me to create
+            user-friendly and responsive web applications using React and its
+            associated ecosystem. Beyond my technical proficiency, I am known
+            for my strong communication skills and ability to collaborate
+            effectively within a team. I am passionate about continuous growth
+            as a developer and eagerly seek opportunities to make meaningful
+            contributions to projects and teams.
+          </p>
+        </section>
+        <section class="work max-width">
+          <h2 class="work__title section-title">Work Experience</h2>
+          <div class="decor"></div>
+          <ul class="work__list">
+            <li class="work__item">
+              <svg
+                class="work__svg"
+                width="32"
+                height="30"
+                viewBox="0 0 32 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <ellipse
+                  cx="15.6598"
+                  cy="15"
+                  rx="15.6598"
+                  ry="15"
+                  fill="#CED4DA"
+                />
+                <ellipse
+                  cx="15.1377"
+                  cy="14.5"
+                  rx="7.82988"
+                  ry="7.5"
+                  fill="#212529"
+                />
+              </svg>
+
+              <div class="work__box">
+                <h3 class="work__subtitle">Freelancer.com</h3>
+                <p class="work__text">2019 - 2022 - Online Platform.</p>
+                <p class="work__description">
+                  My role is to design and develop the client’s website from
+                  scratch. Shifting previous static website to react format and
+                  helping to maintain day to day online activities on various
+                  platformsА
+                </p>
+              </div>
+            </li>
+            <li class="work__item">
+              <svg
+                class="work__svg"
+                width="32"
+                height="30"
+                viewBox="0 0 32 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <ellipse
+                  cx="15.6598"
+                  cy="15"
+                  rx="15.6598"
+                  ry="15"
+                  fill="#CED4DA"
+                />
+                <ellipse
+                  cx="15.1377"
+                  cy="14.5"
+                  rx="7.82988"
+                  ry="7.5"
+                  fill="#212529"
+                />
+              </svg>
+              <div class="work__box">
+                <h3 class="work__subtitle">Google Limited</h3>
+                <p class="work__text">2023 - Present - HQ.</p>
+                <p class="work__description">
+                  Working as a React Native developer for company’s existing
+                  application while maintaining website flow also.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="project max-width">
+          <h2 class="project__title section-title">Featured Projects</h2>
+          <div class="decor"></div>
+          <h3 class="project__subtitle">Amazon Clone</h3>
+          <p class="project__text">
+            An exceptional e-commerce platform mirroring Amazon's
+            functionalities has been meticulously developed, employing
+            cutting-edge technologies such as Next.js, NextAuth, Redux-Toolkit,
+            Tailwind CSS, Stripe, and a suite of other innovative tools. This
+            fully operational Amazon clone showcases a sophisticated integration
+            of modern web technologies, enabling seamless user experiences and
+            robust functionalities. Some key features includes:
+          </p>
+          <ul class="project__list">
+            <li class="project__item">
+              <svg
+                class="project__svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#212529" />
+              </svg>
+              <p class="project__bold-text">
+                Fully Responsive design using Tailwindcss.
+              </p>
+            </li>
+            <li class="project__item">
+              <svg
+                class="project__svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#212529" />
+              </svg>
+              <p class="project__bold-text">
+                Landing page with react-responsive-carousel.
+              </p>
+            </li>
+            <li class="project__item">
+              <svg
+                class="project__svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#212529" />
+              </svg>
+              <p class="project__bold-text">
+                Sign in and sign out authentication with Nextauth using O-auth
+              </p>
+            </li>
+            <li class="project__item">
+              <svg
+                class="project__svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#212529" />
+              </svg>
+              <p class="project__bold-text">
+                Products rendering using Nextjs fetch functionality.
+              </p>
+            </li>
+            <li class="project__item">
+              <svg
+                class="project__svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#212529" />
+              </svg>
+              <p class="project__bold-text">
+                Dynamic cart and favorite product page added.
+              </p>
+            </li>
+            <li class="project__item">
+              <svg
+                class="project__svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#212529" />
+              </svg>
+              <p class="project__bold-text">
+                Store maintained using Redux-Toolkit in real-time.
+              </p>
+            </li>
+            <li class="project__item">
+              <svg
+                class="project__svg"
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="7.5" cy="7.5" r="7.5" fill="#212529" />
+              </svg>
+              <p class="project__bold-text">
+                Payment checkout handled by stripejs.
+              </p>
+            </li>
+          </ul>
+          <p class="duration">
+            <span>Duration:</span>The development of the Amazon Clone
+            website took approximately a week to complete.
+          </p>
+        </section>
+        <section class="skills max-width"></section>
+        <section class="education max-width"></section>
+      </main>
+    </div>
+  </body>
 </html>
